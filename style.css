@@ -295,34 +295,28 @@ body {
 
 .projects-grid {
   display: flex;
-  gap: 30px;
+  gap: 80px;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 40px;
 }
 
 .project-card {
-  position: relative;
-  width: 280px;
+  
+   position: relative;
   height: 200px;
   overflow: hidden;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  background: #f9f9f9; /* fallback bg in case image fails */
 }
-
-
 
 .project-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 15px; /* matches card border */
   transition: all 0.5s ease;
 }
-
-
 
 .project-info {
   position: absolute;
@@ -371,6 +365,7 @@ body {
   background: #000;
   color: #fff;
 }
+
 
 /* Contact Section */
 .contact-section {
